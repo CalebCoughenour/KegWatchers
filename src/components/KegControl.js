@@ -1,7 +1,7 @@
 import React from 'react';
 import NewKegForm from './NewKegForm';
 import KegList from './KegList';
-import KegDetail from './KedDetails/KegDetails';
+import KegDetail from './KegDetails/KegDetails';
 import EditKegForm from './EditKegForm';
 
 class KegControl extends React.Component {
