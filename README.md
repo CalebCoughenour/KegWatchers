@@ -15,6 +15,10 @@
 
  This webpage was built using React to allow a user to add kegs with details. The user can click on individual kegs to expand the details revealing more information and 3 buttons. The user can decrement pints from the count, update the post or delete the post. If they click edit it will bring them to a form where they can edit the details.
 
+ ## Plan For App
+
+ ![Diagram](src/img/diagram.png)
+
 ## Setup/Installation
 
 * Copy the git repository url from the "code" drop down on this github page
