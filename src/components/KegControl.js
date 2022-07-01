@@ -66,6 +66,18 @@ class KegControl extends React.Component {
     this.setState({editing: true});
   }
 
+  handleDecrementingPints = () => {
+    const kegToDecrement = this.state.selectedKeg;
+    if (this.state.selectedKeg.pints !== 0){
+        const pintsToDecrement = {
+            pints: kegToDecrement.pints -=1
+        }
+        this.handleChangingSelectedKeg(pintsToDecrement.id)   
+    } else {
+        this.handleChangingSelectedKeg(this.state.selectedKeg.id)
+    }
+}
+
   render() {
     let currentlyVisibleState = null;
     let buttonText = null;
@@ -78,6 +90,7 @@ class KegControl extends React.Component {
         keg = {this.state.selectedKeg} 
         onClickingDelete = {this.handleDeletingKeg} 
         onClickingEdit = {this.handleEditClick}
+        onClickingDecrement = {this.handleDecrementingPints}
       />
       buttonText= "Return to List";
     }
