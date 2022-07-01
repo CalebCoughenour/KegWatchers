@@ -16,12 +16,12 @@ function ReusableForm(props) {
           required='required'
           placeholder='Brand' />
         <input
-          type='text'
+          type='number'
           name='price'
           required='required'
           placeholder='Price of Keg' />
           <input
-          type='text'
+          type='number'
           name='abv'
           required='required'
           placeholder='ABV Content' />
@@ -30,7 +30,7 @@ function ReusableForm(props) {
           required='required'
           placeholder='Beverage Description' />
           <input
-          type='text'
+          type='number'
           name='pints'
           required='required'
           placeholder='How Many Pints' />
