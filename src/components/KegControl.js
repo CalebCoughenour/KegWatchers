@@ -1,6 +1,6 @@
 import React from 'react';
 import NewKegForm from './NewKegForm';
-import KegList from './KegList';
+import KegList from './KegList/KegList';
 import KegDetail from './KegDetails/KegDetails';
 import EditKegForm from './EditKegForm';
 
